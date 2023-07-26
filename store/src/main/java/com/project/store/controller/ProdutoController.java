@@ -20,7 +20,7 @@ import com.project.store.service.ProdutoService;
 
 
 @RestController
-@RequestMapping("/produto")
+@RequestMapping("/api/produto ")
 @CrossOrigin(origins = "http://localhost:3000")
 public class ProdutoController {
 	

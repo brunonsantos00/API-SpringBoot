@@ -13,6 +13,10 @@ import jakarta.persistence.Table;
 @Table(name = "produtos")
 public class Produto {
 	
+	public Produto() {
+		
+	}
+	
 	public Produto(ProdutoDTO produtoDTO) {
 		this.id = produtoDTO.getId();
 		this.name = produtoDTO.getName();
